@@ -22,3 +22,5 @@ A contig was annotated as a virus if it was circular/met at least two out of the
 6. Alternatively, contigs met one of the above criterium and were annotated as high-quality (≥ 90% completeness) by CheckV were also annotated as viruses.
 As short contigs may only represent fragments of viral genomes, contigs that were longer than 5 kb or circular contigs longer than 1.5 kb were selected for further analyses; this dataset was referred to as the Chinese Human Gut Virome (CHGV) dataset, which consisted of a total of 23,513 viral populations 
  
+# R scripts
+> Shell scripts used in abundance calculation and figure generation.
