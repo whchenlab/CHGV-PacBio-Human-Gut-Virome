@@ -3,7 +3,7 @@ R2=$2
 output=$3
 threads=$4
 sample=`basename $R1|cut -d "_" -f 1|cut -d "." -f 1`
-path=<path to idba folder>
+path=/mnt/raid5/sunchuqing/Softwares/idba/bin/
 export PATH=$PATH:$path
 if [ ! -d $output ]
 then
