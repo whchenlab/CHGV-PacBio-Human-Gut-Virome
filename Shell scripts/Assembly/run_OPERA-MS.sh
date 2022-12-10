@@ -4,7 +4,7 @@ pacbio=$3
 output=$4
 threads=$5
 
-path=/mnt/raid9/sunchuqing/0000_Softwares/2023_Benchmark4_ViromeAssembler/
+path=<Software path>
 sample=`basename $pacbio|cut -d "_" -f 1|cut -d "." -f 1`
 
 export PATH=$PATH:$path/OPERA-MS/
