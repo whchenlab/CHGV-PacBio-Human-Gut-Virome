@@ -13,4 +13,3 @@ virsorter run \
     -j $threads --rm-tmpdir\
     --tmpdir ./01_virsorter_result/${sample}/temp --min-score 0.7
 conda deactivate
-virsorterfa=`ls ./01_virsorter_result/${sample}/Predicted_viral_sequences/*.fa|realpath`
